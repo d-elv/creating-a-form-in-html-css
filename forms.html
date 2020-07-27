@@ -22,7 +22,7 @@
 
                         <label for="phone">Phone number</label>
 						<input type="tel" id="phone" name="phone"
-						placeholder="Don't forget area code!" />
+						placeholder="Don't forget your area code!" />
 						
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" />
@@ -113,10 +113,14 @@
                 <h3>Our Location</h3>
                 <address>
                     Frontend Masters &middot; 60 South 6th Street &middot; Suite
-                    3625 &middot; Minneapolis, MN 55402
-                </address>
+                    3625 &middot; London, W1F 9NA
+				</address>
+				<div id="map"></div>
             </aside>
 		</div>
 		<script src="./js/forms.js"></script>
+		<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIyEIPjt8z5oHEt7Av-HbBX0HkgVcKRMY&callback=initMap">
+</script>
     </body>
 </html>
