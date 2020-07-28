@@ -27,6 +27,7 @@ section {
 }
 aside {
     flex-basis: 33%;
+    padding-right: 1.5rem;
 }
 p,
 [for="abtype"] {
@@ -81,8 +82,4 @@ textarea {
     height: 10rem;
     padding-top: 0.3rem;
     padding: 0.3rem 0 0 0.5rem;
-}
-#map {
-    height: 400px; /* The height is 400 pixels */
-    width: 100%; /* The width is the width of the web page */
 }

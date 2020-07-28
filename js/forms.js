@@ -101,16 +101,3 @@ function sendData() {
     // Finally, send our data.
     XHR.send(urlEncodedData);
 }
-
-// Initialize and add the map
-function initMap() {
-    // The location of Uluru
-    var london = { lat: 51.507, lng: -0.127 };
-    // The map, centered at Uluru
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 10,
-        center: london,
-    });
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({ position: london, map: map });
-}
